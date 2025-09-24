@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Filler Helper - Chrome Extension</title>
+    <meta name="description" content="Professional Chrome extension for automated form filling with smart CSV generation and random test data creation.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-magic"></i>
+                <span>Form Filler Helper</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#screenshots">Screenshots</a></li>
+                <li><a href="#installation">Installation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Version 0.0.4 - Clean Codebase</span>
+                </div>
+                <h1 class="hero-title">
+                    Automate Form Filling with
+                    <span class="gradient-text">Smart Intelligence</span>
+                </h1>
+                <p class="hero-description">
+                    Professional Chrome extension that transforms any webpage form into a powerful testing tool. 
+                    Generate CSV templates, create random test data, and fill forms with a single click.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#installation" class="btn btn-primary">
+                        <i class="fas fa-download"></i>
+                        Install Extension
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        <i class="fas fa-play"></i>
+                        See Features
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">24+</span>
+                        <span class="stat-label">Form Fields</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Automated</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">0.0.4</span>
+                        <span class="stat-label">Latest Version</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="extension-preview">
+                    <div class="browser-window">
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="browser-url">https://example.com/form</div>
+                        </div>
+                        <div class="browser-content">
+                            <div class="form-demo">
+                                <div class="form-field filled">
+                                    <label>Name</label>
+                                    <input type="text" value="John Doe" readonly>
+                                </div>
+                                <div class="form-field filled">
+                                    <label>Email</label>
+                                    <input type="email" value="john@example.com" readonly>
+                                </div>
+                                <div class="form-field filled">
+                                    <label>Phone</label>
+                                    <input type="tel" value="+1 (555) 123-4567" readonly>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-demo">
+                        <div class="sidebar-header">
+                            <i class="fas fa-magic"></i>
+                            <span>Form Filler Helper</span>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="contact-info">
+                                <div class="contact-name">John Doe</div>
+                                <div class="contact-email">john@example.com</div>
+                            </div>
+                            <div class="contact-actions">
+                                <button class="btn-eye">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Powerful Features</h2>
+                <p>Everything you need for professional form testing and automation</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-plus-circle"></i>
+                    </div>
+                    <h3>Smart CSV Generation</h3>
+                    <p>Analyze any webpage form and generate CSV templates with realistic sample data. Covers all field types and options automatically.</p>
+                    <ul class="feature-list">
+                        <li>Automatic form field detection</li>
+                        <li>Context-aware data generation</li>
+                        <li>Complete option coverage</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-dice"></i>
+                    </div>
+                    <h3>Random Test Data</h3>
+                    <p>Create instant random test contacts directly in the sidebar. No file downloads required - contacts appear immediately and ready to use.</p>
+                    <ul class="feature-list">
+                        <li>Instant contact generation</li>
+                        <li>Realistic random data</li>
+                        <li>Smart field matching</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>One-Click Form Filling</h3>
+                    <p>Fill any form across any website with a single click. Intelligent field detection ensures accurate data placement every time.</p>
+                    <ul class="feature-list">
+                        <li>Universal form compatibility</li>
+                        <li>Smart field matching</li>
+                        <li>Multi-select handling</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Contact Management</h3>
+                    <p>Professional contact cards with detailed information popups. Import/export CSV data and manage your contact library efficiently.</p>
+                    <ul class="feature-list">
+                        <li>Dynamic contact cards</li>
+                        <li>CSV import/export</li>
+                        <li>Contact details modal</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Professional UI</h3>
+                    <p>Clean, business-ready interface with solid colors and professional styling. Built for productivity and ease of use.</p>
+                    <ul class="feature-list">
+                        <li>Business-appropriate design</li>
+                        <li>Intuitive navigation</li>
+                        <li>Responsive layout</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Secure & Reliable</h3>
+                    <p>Built with modern development standards. All dependencies updated to latest versions with zero security vulnerabilities.</p>
+                    <ul class="feature-list">
+                        <li>Latest security standards</li>
+                        <li>Zero vulnerabilities</li>
+                        <li>Regular updates</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section id="screenshots" class="screenshots">
+        <div class="container">
+            <div class="section-header">
+                <h2>Screenshots</h2>
+                <p>See the extension in action</p>
+            </div>
+            <div class="screenshots-grid">
+                <div class="screenshot-card">
+                    <div class="screenshot-placeholder">
+                        <i class="fas fa-image"></i>
+                        <span>Sidebar Interface</span>
+                    </div>
+                    <h3>Professional Sidebar</h3>
+                    <p>Clean, business-ready interface with contact management and smart generation tools.</p>
+                </div>
+                <div class="screenshot-card">
+                    <div class="screenshot-placeholder">
+                        <i class="fas fa-image"></i>
+                        <span>Form Filling</span>
+                    </div>
+                    <h3>Automated Form Filling</h3>
+                    <p>Watch as forms are filled automatically with intelligent field detection and data matching.</p>
+                </div>
+                <div class="screenshot-card">
+                    <div class="screenshot-placeholder">
+                        <i class="fas fa-image"></i>
+                        <span>CSV Generation</span>
+                    </div>
+                    <h3>Smart CSV Generation</h3>
+                    <p>Generate comprehensive CSV templates from any webpage form with realistic test data.</p>
+                </div>
+                <div class="screenshot-card">
+                    <div class="screenshot-placeholder">
+                        <i class="fas fa-image"></i>
+                        <span>Contact Details</span>
+                    </div>
+                    <h3>Contact Management</h3>
+                    <p>View detailed contact information in professional popup modals with full data display.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Section -->
+    <section id="installation" class="installation">
+        <div class="container">
+            <div class="section-header">
+                <h2>Installation</h2>
+                <p>Get started with Form Filler Helper in minutes</p>
+            </div>
+            <div class="installation-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Download Extension</h3>
+                        <p>Download the latest version (0.0.4) from the Chrome Web Store or build from source.</p>
+                        <div class="step-code">
+                            <code>git clone https://github.com/yourusername/form-filler-helper.git</code>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Build & Install</h3>
+                        <p>Build the extension and load it into Chrome for development or testing.</p>
+                        <div class="step-code">
+                            <code>npm install && npm run build</code>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Start Using</h3>
+                        <p>Click the extension icon on any webpage with forms and start automating your testing workflow.</p>
+                        <div class="step-features">
+                            <span class="feature-tag">Smart CSV Generation</span>
+                            <span class="feature-tag">Random Test Data</span>
+                            <span class="feature-tag">One-Click Filling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Specs -->
+    <section class="tech-specs">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Specifications</h2>
+                <p>Built with modern web technologies</p>
+            </div>
+            <div class="specs-grid">
+                <div class="spec-card">
+                    <h3>Development Stack</h3>
+                    <ul>
+                        <li>Chrome Extension Manifest V3</li>
+                        <li>Webpack 5.101.3</li>
+                        <li>ESLint 9.36.0</li>
+                        <li>Jest 30.1.3</li>
+                    </ul>
+                </div>
+                <div class="spec-card">
+                    <h3>Features</h3>
+                    <ul>
+                        <li>24+ Form Field Types</li>
+                        <li>Smart Field Detection</li>
+                        <li>CSV Import/Export</li>
+                        <li>Random Data Generation</li>
+                    </ul>
+                </div>
+                <div class="spec-card">
+                    <h3>Compatibility</h3>
+                    <ul>
+                        <li>Chrome 88+</li>
+                        <li>All Websites</li>
+                        <li>Cross-Platform</li>
+                        <li>Mobile Responsive</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>Questions, feedback, or contributions welcome</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>View source code and contribute</p>
+                            <a href="https://github.com/yourusername/form-filler-helper">github.com/yourusername/form-filler-helper</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-bug"></i>
+                        <div>
+                            <h3>Issues</h3>
+                            <p>Report bugs or request features</p>
+                            <a href="https://github.com/yourusername/form-filler-helper/issues">Create an Issue</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>Direct contact for support</p>
+                            <a href="mailto:support@formfillerhelper.com">support@formfillerhelper.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-magic"></i>
+                    <span>Form Filler Helper</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#features">Features</a>
+                    <a href="#screenshots">Screenshots</a>
+                    <a href="#installation">Installation</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-version">
+                    <span>Version 0.0.4</span>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Form Filler Helper. All rights reserved. Built with modern web technologies.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
+
