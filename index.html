@@ -38,8 +38,8 @@
         <div class="hero-container">
             <div class="hero-content">
                 <div class="hero-badge">
-                    <i class="fas fa-star"></i>
-                    <span>Version 0.0.4 - Clean Codebase</span>
+                    <i class="fas fa-check-circle"></i>
+                    <span>Published on Chrome Web Store - Version 1.0.0</span>
                 </div>
                 <h1 class="hero-title">
                     Automate Form Filling with
@@ -50,9 +50,9 @@
                     Generate CSV templates, create random test data, and fill forms with a single click.
                 </p>
                 <div class="hero-buttons">
-                    <a href="#installation" class="btn btn-primary">
+                    <a href="https://chrome.google.com/webstore/detail/form-filler-helper" target="_blank" class="btn btn-primary">
                         <i class="fas fa-download"></i>
-                        Install Extension
+                        Install from Chrome Store
                     </a>
                     <a href="#features" class="btn btn-secondary">
                         <i class="fas fa-play"></i>
@@ -69,7 +69,7 @@
                         <span class="stat-label">Automated</span>
                     </div>
                     <div class="stat">
-                        <span class="stat-number">0.0.4</span>
+                        <span class="stat-number">1.0.0</span>
                         <span class="stat-label">Latest Version</span>
                     </div>
                 </div>
@@ -220,33 +220,128 @@
             </div>
             <div class="screenshots-grid">
                 <div class="screenshot-card">
-                    <div class="screenshot-placeholder">
-                        <i class="fas fa-image"></i>
-                        <span>Sidebar Interface</span>
+                    <div class="screenshot-image">
+                        <img src="assets/images/sidebar-interface.png" alt="Form Filler Helper Sidebar Interface" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--radius-lg);">
                     </div>
                     <h3>Professional Sidebar</h3>
                     <p>Clean, business-ready interface with contact management and smart generation tools.</p>
                 </div>
                 <div class="screenshot-card">
-                    <div class="screenshot-placeholder">
-                        <i class="fas fa-image"></i>
-                        <span>Form Filling</span>
+                    <div class="screenshot-placeholder form-filling-demo">
+                        <div class="demo-browser">
+                            <div class="demo-header">
+                                <div class="demo-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <div class="demo-url">contact-form.com</div>
+                            </div>
+                            <div class="demo-content">
+                                <div class="demo-form">
+                                    <div class="demo-field filled">
+                                        <label>Name</label>
+                                        <input type="text" value="John Doe" readonly>
+                                    </div>
+                                    <div class="demo-field filled">
+                                        <label>Email</label>
+                                        <input type="email" value="john.doe@example.com" readonly>
+                                    </div>
+                                    <div class="demo-field filled">
+                                        <label>Phone</label>
+                                        <input type="tel" value="+1 (555) 123-4567" readonly>
+                                    </div>
+                                </div>
+                                <div class="demo-sidebar">
+                                    <div class="demo-contact">
+                                        <div class="demo-avatar">JD</div>
+                                        <div class="demo-info">
+                                            <div class="demo-name">John Doe</div>
+                                            <div class="demo-email">john.doe@example.com</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <h3>Automated Form Filling</h3>
                     <p>Watch as forms are filled automatically with intelligent field detection and data matching.</p>
                 </div>
                 <div class="screenshot-card">
-                    <div class="screenshot-placeholder">
-                        <i class="fas fa-image"></i>
-                        <span>CSV Generation</span>
+                    <div class="screenshot-placeholder csv-demo">
+                        <div class="csv-preview">
+                            <div class="csv-header">
+                                <i class="fas fa-file-csv"></i>
+                                <span>Generated CSV Template</span>
+                            </div>
+                            <div class="csv-content">
+                                <div class="csv-row header">
+                                    <span>first-name</span>
+                                    <span>last-name</span>
+                                    <span>email</span>
+                                    <span>phone</span>
+                                </div>
+                                <div class="csv-row data">
+                                    <span>John</span>
+                                    <span>Doe</span>
+                                    <span>john@example.com</span>
+                                    <span>+1-555-123-4567</span>
+                                </div>
+                                <div class="csv-row data">
+                                    <span>Jane</span>
+                                    <span>Smith</span>
+                                    <span>jane@example.com</span>
+                                    <span>+1-555-987-6543</span>
+                                </div>
+                                <div class="csv-row data">
+                                    <span>Bob</span>
+                                    <span>Johnson</span>
+                                    <span>bob@example.com</span>
+                                    <span>+1-555-456-7890</span>
+                                </div>
+                            </div>
+                            <div class="csv-footer">
+                                <i class="fas fa-download"></i>
+                                <span>Download CSV</span>
+                            </div>
+                        </div>
                     </div>
                     <h3>Smart CSV Generation</h3>
                     <p>Generate comprehensive CSV templates from any webpage form with realistic test data.</p>
                 </div>
                 <div class="screenshot-card">
-                    <div class="screenshot-placeholder">
-                        <i class="fas fa-image"></i>
-                        <span>Contact Details</span>
+                    <div class="screenshot-placeholder contact-modal-demo">
+                        <div class="modal-preview">
+                            <div class="modal-header">
+                                <h3>Contact Details</h3>
+                                <button class="modal-close">&times;</button>
+                            </div>
+                            <div class="modal-content">
+                                <div class="contact-detail">
+                                    <label>Full Name:</label>
+                                    <span>John Doe</span>
+                                </div>
+                                <div class="contact-detail">
+                                    <label>Email:</label>
+                                    <span>john.doe@example.com</span>
+                                </div>
+                                <div class="contact-detail">
+                                    <label>Phone:</label>
+                                    <span>+1 (555) 123-4567</span>
+                                </div>
+                                <div class="contact-detail">
+                                    <label>Company:</label>
+                                    <span>Acme Corporation</span>
+                                </div>
+                                <div class="contact-detail">
+                                    <label>Address:</label>
+                                    <span>123 Main St, City, State 12345</span>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn-close">Close</button>
+                            </div>
+                        </div>
                     </div>
                     <h3>Contact Management</h3>
                     <p>View detailed contact information in professional popup modals with full data display.</p>
@@ -260,26 +355,49 @@
         <div class="container">
             <div class="section-header">
                 <h2>Installation</h2>
-                <p>Get started with Form Filler Helper in minutes</p>
+                <p>Get started with Form Filler Helper in seconds</p>
             </div>
             <div class="installation-steps">
                 <div class="step">
                     <div class="step-number">1</div>
                     <div class="step-content">
-                        <h3>Download Extension</h3>
-                        <p>Download the latest version (0.0.4) from the Chrome Web Store or build from source.</p>
+                        <h3>Visit Chrome Web Store</h3>
+                        <p>Click the "Add to Chrome" button on the official Chrome Web Store listing.</p>
+                        <div class="step-screenshot">
+                            <div class="screenshot-placeholder">
+                                <i class="fas fa-store"></i>
+                                <span>Chrome Web Store Page</span>
+                                <p>Form Filler Helper listing with "Add to Chrome" button</p>
+                            </div>
+                        </div>
                         <div class="step-code">
-                            <code>git clone https://github.com/yourusername/form-filler-helper.git</code>
+                            <code>chrome.google.com/webstore/detail/form-filler-helper</code>
+                        </div>
+                        <div class="step-features">
+                            <span class="feature-tag">Official Store</span>
+                            <span class="feature-tag">Auto Updates</span>
+                            <span class="feature-tag">Secure</span>
                         </div>
                     </div>
                 </div>
                 <div class="step">
                     <div class="step-number">2</div>
                     <div class="step-content">
-                        <h3>Build & Install</h3>
-                        <p>Build the extension and load it into Chrome for development or testing.</p>
+                        <h3>Confirm Installation</h3>
+                        <p>Review permissions and click "Add extension" to install. The extension will be added to your Chrome toolbar.</p>
+                        <div class="step-screenshot">
+                            <div class="screenshot-placeholder">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Installation Dialog</span>
+                                <p>Chrome permission confirmation dialog</p>
+                            </div>
+                        </div>
                         <div class="step-code">
-                            <code>npm install && npm run build</code>
+                            <code>✓ Read and change all your data on websites you visit</code>
+                        </div>
+                        <div class="step-features">
+                            <span class="feature-tag">One-Click Install</span>
+                            <span class="feature-tag">Instant Access</span>
                         </div>
                     </div>
                 </div>
@@ -287,7 +405,14 @@
                     <div class="step-number">3</div>
                     <div class="step-content">
                         <h3>Start Using</h3>
-                        <p>Click the extension icon on any webpage with forms and start automating your testing workflow.</p>
+                        <p>Click the extension icon on any webpage with forms and start automating your testing workflow immediately.</p>
+                        <div class="step-screenshot">
+                            <div class="screenshot-placeholder">
+                                <i class="fas fa-magic"></i>
+                                <span>Extension in Action</span>
+                                <p>Form Filler Helper sidebar with contact management</p>
+                            </div>
+                        </div>
                         <div class="step-features">
                             <span class="feature-tag">Smart CSV Generation</span>
                             <span class="feature-tag">Random Test Data</span>
