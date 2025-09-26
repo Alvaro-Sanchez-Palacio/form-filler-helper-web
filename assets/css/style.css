@@ -1081,9 +1081,22 @@ body {
     padding: var(--space-xs);
     display: flex;
     align-items: center;
-    gap: var(--space-xs);
+    justify-content: space-between;
     font-size: 0.6rem;
     font-weight: 500;
+}
+
+.csv-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    color: #bdc3c7;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.csv-actions:hover {
+    color: white;
 }
 
 .csv-content {
