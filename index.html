@@ -24,6 +24,7 @@
             </div>
             <ul class="nav-menu">
                 <li><a href="#features">Features</a></li>
+                <li><a href="#security">Security</a></li>
                 <li><a href="#screenshots">Screenshots</a></li>
                 <li><a href="#installation">Installation</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -176,26 +177,75 @@
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <i class="fas fa-palette"></i>
+                        <i class="fas fa-lock"></i>
                     </div>
-                    <h3>Professional UI</h3>
-                    <p>Clean, business-ready interface with solid colors and professional styling. Built for productivity and ease of use.</p>
+                    <h3>Privacy & Security</h3>
+                    <p>Advanced security architecture ensures your data remains private and secure throughout the form filling process.</p>
                     <ul class="feature-list">
-                        <li>Business-appropriate design</li>
-                        <li>Intuitive navigation</li>
-                        <li>Responsive layout</li>
+                        <li>Local data processing only</li>
+                        <li>No external network requests</li>
+                        <li>Sandboxed content script execution</li>
+                        <li>Minimal permission requirements</li>
                     </ul>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">
+            </div>
+        </div>
+    </section>
+
+    <!-- Security Section -->
+    <section id="security" class="security">
+        <div class="container">
+            <div class="section-header">
+                <h2>Security & Privacy</h2>
+                <p>How Form Filler Helper protects your data and privacy</p>
+            </div>
+            <div class="security-grid">
+                <div class="security-card">
+                    <div class="security-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Local Processing</h3>
+                    <p>All form analysis and data generation happens locally in your browser. No data is sent to external servers or third-party services.</p>
+                    <ul class="security-list">
+                        <li>Form field detection runs in browser</li>
+                        <li>Data generation uses local algorithms</li>
+                        <li>CSV processing handled client-side</li>
+                    </ul>
+                </div>
+                <div class="security-card">
+                    <div class="security-icon">
                         <i class="fas fa-shield-alt"></i>
                     </div>
-                    <h3>Secure & Reliable</h3>
-                    <p>Built with modern development standards. All dependencies updated to latest versions with zero security vulnerabilities.</p>
-                    <ul class="feature-list">
-                        <li>Latest security standards</li>
-                        <li>Zero vulnerabilities</li>
-                        <li>Regular updates</li>
+                    <h3>Minimal Permissions</h3>
+                    <p>Only requests the minimum permissions necessary for form filling functionality. No access to browsing history, bookmarks, or personal data.</p>
+                    <ul class="security-list">
+                        <li>Active tab access for form interaction</li>
+                        <li>Storage permission for user preferences</li>
+                        <li>No network or external access</li>
+                    </ul>
+                </div>
+                <div class="security-card">
+                    <div class="security-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Open Source</h3>
+                    <p>Fully open source codebase allows complete transparency. You can review every line of code to verify security and privacy practices.</p>
+                    <ul class="security-list">
+                        <li>Source code publicly available</li>
+                        <li>Community-reviewed security</li>
+                        <li>No hidden functionality</li>
+                    </ul>
+                </div>
+                <div class="security-card">
+                    <div class="security-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>Data Isolation</h3>
+                    <p>Extension operates in isolated sandbox environment. Generated test data never mixes with your real personal information.</p>
+                    <ul class="security-list">
+                        <li>Sandboxed content script execution</li>
+                        <li>Separate storage namespace</li>
+                        <li>No cross-site data leakage</li>
                     </ul>
                 </div>
             </div>
