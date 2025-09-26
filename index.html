@@ -410,8 +410,12 @@
                         <h3>Start Using</h3>
                         <p>Click the extension icon on any webpage with forms and start automating your testing workflow immediately.</p>
                         <div class="step-screenshot">
-                            <div class="screenshot-image">
-                                <img src="assets/images/sidebar-interface.png" alt="Form Filler Helper Extension in Action" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--radius-lg);">
+                            <div class="screenshot-image clickable-image" onclick="openImageModal('assets/images/sidebar-interface.png', 'Form Filler Helper Extension in Action')">
+                                <img src="assets/images/sidebar-interface.png" alt="Form Filler Helper Extension in Action" style="width: 100%; height: 200px; object-fit: cover; border-radius: var(--radius-lg); cursor: pointer;">
+                                <div class="image-overlay">
+                                    <i class="fas fa-search-plus"></i>
+                                    <span>Click to enlarge</span>
+                                </div>
                             </div>
                         </div>
                         <div class="step-features">
@@ -525,6 +529,15 @@
             </div>
         </div>
     </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="image-modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeImageModal()">&times;</span>
+            <img id="modalImage" src="" alt="" class="modal-image">
+            <div class="modal-caption" id="modalCaption"></div>
+        </div>
+    </div>
 
     <script src="assets/js/script.js"></script>
 </body>
