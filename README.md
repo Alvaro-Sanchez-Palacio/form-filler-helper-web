@@ -170,8 +170,8 @@ The website includes placeholder sections for the following screenshots:
 
 ## 📞 Contact & Support
 
-- **GitHub**: [Repository Link]
-- **Issues**: [GitHub Issues]
+- **GitHub**: [https://github.com/Alvaro-Sanchez-Palacio/form-filler-helper](https://github.com/Alvaro-Sanchez-Palacio/form-filler-helper)
+- **Issues**: [https://github.com/Alvaro-Sanchez-Palacio/form-filler-helper/issues](https://github.com/Alvaro-Sanchez-Palacio/form-filler-helper/issues)
 - **Email**: support@formfillerhelper.com
 
 ## 📄 License
