@@ -1254,6 +1254,26 @@ body {
     overflow-x: auto;
 }
 
+.store-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.store-link:hover {
+    color: var(--primary-color);
+    transform: translateY(-1px);
+}
+
+.store-link code {
+    color: inherit;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    font-size: inherit;
+}
+
 .step-features {
     display: flex;
     gap: var(--space-2);
@@ -1262,12 +1282,25 @@ body {
 }
 
 .feature-tag {
-    background: var(--primary-color);
-    color: white;
-    padding: var(--space-2) var(--space-3);
+    background: var(--gray-200);
+    color: var(--gray-700);
+    padding: var(--space-2) var(--space-4);
     border-radius: var(--radius-md);
     font-size: var(--font-size-sm);
     font-weight: 500;
+    border: 1px solid var(--gray-300);
+    transition: all 0.2s ease;
+    cursor: default;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+}
+
+.feature-tag:hover {
+    background: var(--gray-300);
+    border-color: var(--gray-400);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Clickable Image Styles */
