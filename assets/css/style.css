@@ -1174,7 +1174,6 @@ body {
     padding: 0;
     background: transparent;
     border-radius: var(--radius-xl);
-    overflow: hidden;
 }
 
 .contact-detail {
