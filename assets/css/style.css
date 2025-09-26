@@ -1262,8 +1262,9 @@ body {
 }
 
 .store-link:hover {
-    color: var(--primary-color);
+    color: #60a5fa;
     transform: translateY(-1px);
+    text-shadow: 0 0 8px rgba(96, 165, 250, 0.5);
 }
 
 .store-link code {
