@@ -515,8 +515,11 @@ body {
 
 .features-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: var(--space-8);
+    justify-items: center;
+    max-width: 1200px;
+    margin: var(--space-16) auto 0;
 }
 
 .feature-card {
@@ -587,8 +590,11 @@ body {
 
 .screenshots-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: var(--space-8);
+    justify-items: center;
+    max-width: 1000px;
+    margin: var(--space-16) auto 0;
 }
 
 .screenshot-card {
@@ -1536,6 +1542,23 @@ body {
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 800px;
+    }
+    
+    .screenshots-grid {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+    }
+    
+    .security-grid {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 800px;
+    }
+}
+
 @media (max-width: 768px) {
     .hamburger {
         display: flex;
@@ -1576,10 +1599,17 @@ body {
     
     .features-grid {
         grid-template-columns: 1fr;
+        max-width: 400px;
     }
     
     .screenshots-grid {
         grid-template-columns: 1fr;
+        max-width: 400px;
+    }
+    
+    .security-grid {
+        grid-template-columns: 1fr;
+        max-width: 400px;
     }
     
     .step {
@@ -1712,9 +1742,11 @@ html {
 
 .security-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: var(--space-8);
-    margin-top: var(--space-16);
+    justify-items: center;
+    max-width: 1000px;
+    margin: var(--space-16) auto 0;
 }
 
 .security-card {
