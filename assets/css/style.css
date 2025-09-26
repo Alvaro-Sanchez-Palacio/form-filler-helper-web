@@ -515,10 +515,10 @@ body {
 
 .features-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: var(--space-8);
     justify-items: center;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: var(--space-16) auto 0;
 }
 
@@ -1592,8 +1592,8 @@ body {
 /* Responsive Design */
 @media (max-width: 1024px) {
     .features-grid {
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 800px;
+        grid-template-columns: 1fr;
+        max-width: 500px;
     }
     
     .screenshots-grid {
